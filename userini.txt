@@ -1,0 +1,9 @@
+open_basedir=/tmp/:/www/wwwroot/onlinemd/onlinemarkDown:/www/wwwroot/onlinemd/onlinemarkDown/public:/www/wwwroot/onlinemd/CloudsSpace
+
+/www/wwwroot/onlinemd/onlinemarkDown/public
+发布的时候,要把上面那句话作为.user.ini复制到以上目录和根目录中,
+用来限制网站能够访问的文件夹,如果不修改的话,我们无法访问我们的云盘文件夹,用户空间
+
+关于文件权限的问题,需要把所有者设为www
+
+
